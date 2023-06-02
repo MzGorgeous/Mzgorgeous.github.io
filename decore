@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(138, 43, 226); /* RGB value for deep purple */
+  }
+  .moving-letters {
+    display: inline-block;
+    animation: movingLetters 2s infinite;
+  }
+  
+  @keyframes movingLetters {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(10px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
